@@ -72,9 +72,9 @@ To use a real model, replace `embed()` with your provider's embedding call and k
 
 ## Write-up
 
-Full tutorial: SUBSTACK_URL
+Full tutorial: https://bobbyhalljr.substack.com/p/dont-switch-embedding-models-on-vibes
 
-Also: DEV_URL
+Also: https://dev.to/bobbyhalljr/dont-switch-embedding-models-on-vibes-build-a-tiny-retrieval-eval-in-typescript-2dj1
 
 ## License
 
