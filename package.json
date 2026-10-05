@@ -1,0 +1,25 @@
+{
+  "name": "tiny-retrieval-eval",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny retrieval eval for RAG in TypeScript: answer recall, evidence recall, a ship gate, and a mixed-index check. Mock embeddings, no API key.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Bobby Hall Jr (https://bhjr.dev)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyhalljr/tiny-retrieval-eval.git"
+  },
+  "scripts": {
+    "start": "tsx eval.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

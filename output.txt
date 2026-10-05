@@ -1,0 +1,15 @@
+12 chunks, 4 labeled queries (example data), k=2
+
+== switch test ==
+chunk-only  answer@2 0.75  evidence@2 0.50  MRR 0.58
+contextual  answer@2 1.00  evidence@2 0.75  MRR 1.00
+  rent at 48 Elm     answer rank 2 -> 1
+  rent at 12 Oak     answer rank 3 -> 1
+  late fee at Elm    answer rank 2 -> 1
+  payments rollback  answer rank 1 -> 1
+gate: SHIP (drops: none; worse queries: none)
+
+== mixed-index test (index built with contextual) ==
+query with contextual  answer@2 1.00  evidence@2 0.75  MRR 1.00
+query with ctx-fast    answer@2 1.00  evidence@2 0.75  MRR 1.00
+query with ctx-v2      answer@2 0.00  evidence@2 0.00  MRR 0.21
